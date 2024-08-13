@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Versión de ECMAScript a la que se compilará el código
+    "module": "commonjs", // Sistema de módulos
+    "strict": true, // Activar todas las comprobaciones de tipos estrictos
+    "esModuleInterop": true, // Permite la interop. con módulos CommonJS/ES6
+    "skipLibCheck": true, // Omitir verificación de tipos en archivos de declaración
+    "outDir": "./dist", // Carpeta de salida para los archivos compilados
+    "rootDir": "./src" // Directorio raíz de los archivos de origen
+  },
+  "include": ["src"], // Archivos TypeScript que serán compilados
+  "exclude": ["node_modules"] // Directorios que no serán compilados
+}

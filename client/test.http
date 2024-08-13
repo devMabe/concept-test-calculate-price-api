@@ -1,0 +1,36 @@
+@uri = http://localhost:3000/api
+
+GET {{uri}}/purchases
+
+//reeStore
+###
+GET {{uri}}/purchases/restore
+
+###
+POST {{uri}}/income/average
+Content-Type: application/json
+
+{
+  "itemId": 1,
+  "qty": 95
+}
+
+### PEPS
+POST {{uri}}/income
+Content-Type: application/json
+
+{
+  "itemId": 1,
+  "type": "PEPS",
+  "qty": 95
+}
+
+### UEPS
+POST {{uri}}/income
+Content-Type: application/json
+
+{
+  "id": 1,
+  "type": "UEPS",
+  "qty": 95
+}
