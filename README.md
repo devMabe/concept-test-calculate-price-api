@@ -1,4 +1,4 @@
-# Demo para calcular el precio total de una venta, a travéz de una estrategía de calculo.
+# Demo para calcular el precio total de una venta, a través de una estrategía de calculo.
 
 ## Estrategías soportadas
 
