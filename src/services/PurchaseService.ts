@@ -178,13 +178,11 @@ export class PurchaseService {
 
       //generamos el comprobante
       console.log({
-        purchase: {
-          ...purchase,
-        },
         summary: {
           uniCost: purchase.unitCost,
           date: purchase.date,
           stock: qty,
+          totalPrice,
         },
       });
 
